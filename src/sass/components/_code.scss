@@ -189,7 +189,6 @@
     }
 
     .section__box {
-        height: 300px;
         box-shadow: 0px 0px 10px #ccc;
         border: 1px solid #ccc;
         padding: 30px 10px;
@@ -213,15 +212,14 @@
             color: #333;
             font-size: 15px;
             font-weight: bold; 
-            margin-top: 30px;           
+           padding: 20px 0;         
         }
 
         .section__box__desc {
             text-align: center;
             color: #999;
             font-size: 13px;
-            font-weight: 500; 
-            margin-top: 20px;  
+            font-weight: 500;             
             line-height: 20px;         
         }
     }
@@ -253,7 +251,7 @@
         color: #fff;
         font-weight: 600;
         z-index: 1;
-        line-height: 20px;
+        line-height: 40px;
         font-family: MehdiHeydari;
     }
 
@@ -268,6 +266,31 @@
         margin-top: 30px;
       
     }
+}
+
+.pulse-hover {
+    transition: all 0.4s;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+}
+.link {
+    color: #01BF81;
+    transition: all 0.4s;
+    &:hover {
+        color: #41C3D3;
+    }
+}
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.p-0 {
+    padding: 0 !important;
 }
 
 
