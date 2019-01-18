@@ -326,3 +326,12 @@
         }
     }
 }
+
+.header-custom {
+    min-height: 50vh !important;
+    height: auto;
+
+    .header__section-custom {
+        height: calc(50vh - 50px);
+    }
+}
