@@ -335,3 +335,28 @@
         height: calc(50vh - 50px);
     }
 }
+
+.about {
+    
+    background-color: #f3f2f23b;
+    box-shadow: 0px 0px 10px #ccc;
+    margin-top: 40px;
+    margin-bottom: -80px;
+    overflow: hidden;
+
+    .about__title {
+        font-size: 18px;
+        color: #01BF81;
+        font-weight: 600;
+        margin-bottom: 20px;
+        border-bottom: 1px dotted #01BF81;
+        padding-bottom: 15px;
+    }
+
+    .about__desc {
+        font-size: 14px;
+        color: #111;
+        font-weight: 500;
+        margin: 10px 0;
+    }
+}
