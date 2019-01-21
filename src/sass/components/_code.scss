@@ -330,6 +330,7 @@
 .header-custom {
     min-height: 50vh !important;
     height: auto;
+    border-radius: 0;
 
     .header__section-custom {
         height: calc(50vh - 50px);
